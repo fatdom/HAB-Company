@@ -47,4 +47,6 @@ $(document).ready(function() {
             this.setAttribute('src', 'images/main/P1-cover-button-contact-off.png');
         }
     );
+    
+    startSlideShowTransition();
 });

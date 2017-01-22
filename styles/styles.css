@@ -67,6 +67,7 @@ li.active {
     background-size: cover;
 }
 
+/*
 #slide1 {
     background-image: url(../images/main/cover1.jpg);
 }
@@ -79,6 +80,7 @@ li.active {
     background-image: url(../images/main/cover3.jpg);
 }
 
+
 .slide {
     background-size: cover;
 }
@@ -89,6 +91,19 @@ li.active {
 
 .slide-main img {
     top: 45%;
+    position: relative;
+    
+    max-width: 100%;
+}
+*/
+
+#section-main {
+    text-align: center;
+}
+
+#img-main {
+    top: 45%;
+
     position: relative;
     
     max-width: 100%;
@@ -119,10 +134,13 @@ li.active {
 
 .menu-main {
     list-style: none;
-    float: right;
+    display: block;
+    
     position: fixed;
+    padding-right: 100px;
+    right: 5%;
     bottom: 3%;
-    right: 15%;
+    
 }
 
 .menu-main li {
@@ -134,3 +152,13 @@ li.active {
 }
 
 
+
+#section-main-background {
+    background-image: url(../images/main/cover1.jpg);
+    background-size: cover;
+    
+    width: inherit;
+    height: inherit;
+    
+    text-align: center;
+}
