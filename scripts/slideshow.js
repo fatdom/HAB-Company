@@ -3,9 +3,9 @@ var TransitionIncrement = 3;
 var IncrementInterval = 25;
 var PauseBeforeNextImage = 4500;
 
-Images.push("url('../images/main/cover1.jpg')");
-Images.push("url('../images/main/cover2.jpg')");
-Images.push("url('../images/main/cover3.jpg')");
+Images.push("url('images/main/cover1.jpg')");
+Images.push("url('images/main/cover2.jpg')");
+Images.push("url('images/main/cover3.jpg')");
 
 var opacity = 100;
 var currentImage = 0;
