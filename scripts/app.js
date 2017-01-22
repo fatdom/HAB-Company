@@ -21,7 +21,7 @@ $(document).ready(function() {
         controlArrows: false,
         verticalCentered: false,
         afterLoad: function(){
-            $("#nav-bottom .nav-img").attr('src','images/point-off.png')
+            $("#nav-bottom .nav-img").attr('src','images/point-off.png');
             $("#nav-bottom .active").attr('src','images/point-on.png');
         }
     });
