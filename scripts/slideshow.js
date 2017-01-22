@@ -36,6 +36,7 @@ function FadeOut() {
        if( currentImage > topImage ) { 
            currentImage = 0; 
        }
+        console.log(Images[currentImage]);
         image.style.backgroundImage = Images[currentImage];
         timerthing = setInterval("FadeIn()", IncrementInterval);
     }
