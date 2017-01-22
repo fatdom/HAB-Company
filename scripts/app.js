@@ -1,4 +1,4 @@
-funtion preloadImages(){
+function preloadImages(){
     if (document.images) {
         img1 = new Image();
         img2 = new Image();
