@@ -30,37 +30,37 @@ $(document).ready(function() {
 
     $('.menu-main-1').hover(
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-about-on.png');
+            $(this).attr('src', 'images/main/P1-cover-button-about-on.png');
         },
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-about-off.png');
+            $(this).attr('src', 'images/main/P1-cover-button-about-off.png');
         }
     );
     
     $('.menu-main-2').hover(
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-work-on.png');
+            $(this).attr('src', 'images/main/P1-cover-button-work-on.png');
         },
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-work-off.png');
+            $(this).attr('src', 'images/main/P1-cover-button-work-off.png');
         }
     );
     
     $('.menu-main-3').hover(
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-service-on.png');
+            $(this).attr('src', 'images/main/P1-cover-button-service-on.png');
         },
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-service-off.png');
+            $(this).attr('src', 'images/main/P1-cover-button-service-off.png');
         }
     );
     
     $('.menu-main-4').hover(
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-contact-on.png');
+            $(this).attr('src', 'images/main/P1-cover-button-contact-on.png');
         },
         function(){
-            this.setAttribute('src', 'images/main/P1-cover-button-contact-off.png');
+            $(this).attr('src', 'images/main/P1-cover-button-contact-off.png');
         }
     );
     
