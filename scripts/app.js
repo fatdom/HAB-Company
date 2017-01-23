@@ -1,15 +1,3 @@
-function preloadImages(){
-    if (document.images) {
-        img1 = new Image();
-        img2 = new Image();
-        img3 = new Image();
-
-        img1.src = "https://fatdom.github.io/HAB-Company/images/main/cover1.jpg";
-        img2.src = "https://fatdom.github.io/HAB-Company/images/main/cover2.jpg";
-        img3.src = "https://fatdom.github.io/HAB-Company/images/main/cover3.jpg";
-    }
-}
-
 $(document).ready(function() {
     preloadImages();
     
