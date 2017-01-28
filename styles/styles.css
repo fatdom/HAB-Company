@@ -130,6 +130,8 @@ li.active {
     width: 40%;
     margin: auto;
     text-align: center;
+    color: #005680;
+    line-height: 1.5em;
 }
 
 .menu-main {
@@ -161,4 +163,22 @@ li.active {
     height: inherit;
     
     text-align: center;
+}
+
+#copyright {
+    padding-top: 10vh;
+}
+
+
+
+#contact-logo {
+    padding-top: 10vh;
+}
+
+#contact-contact {
+    padding-top: 10vh;
+}
+
+#contact-phone {
+    padding-top: 1em;
 }
