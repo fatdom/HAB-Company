@@ -4,6 +4,8 @@ body {
     
     margin: 0px;
     padding: 0px;
+    
+    min-height: 500px;
 }
 
 img.block {
@@ -182,3 +184,5 @@ li.active {
 #contact-phone {
     padding-top: 1em;
 }
+
+
