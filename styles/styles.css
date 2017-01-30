@@ -17,7 +17,7 @@ img.nav-img {
     padding-bottom: 1.5em;
 }
 
-#nav-bar {
+#nav-bar { /* set rule for smaller screen */
     height: 100%;
     width: 100px;
     
@@ -25,8 +25,7 @@ img.nav-img {
     right: 0px;
     
     background-color: #005680;
-    z-index: 2;
-    
+    z-index: 2;  
 }
 
 .section {
@@ -136,7 +135,7 @@ li.active {
     line-height: 1.5em;
 }
 
-.menu-main {
+.menu-main { /* set rule for smaller screen */
     list-style: none;
     display: block;
     
@@ -186,3 +185,91 @@ li.active {
 }
 
 
+
+#content-service {
+    width: 60vw;
+    height 60vh;
+    
+    padding-top: 15vh; /* set rule for smaller screen */
+    padding-left: 10vw;
+    
+    color: #005680;
+}
+
+input {
+    display: block;
+    border-radius: 5px;
+    
+    width: 40vw;
+    height: 2em;
+}
+
+textarea {
+    display: block;
+    border-radius: 5px;
+    
+    width: 40vw;
+    height: 5em;
+}
+
+#contact-form {
+    line-height: 2em;
+}
+
+#contact-img {
+    width: 25vw; /* set rule for smaller screen */
+}
+
+#content-about {
+    width: 40vw;
+    height 80vh;
+    
+    padding-top: 25vh; /* set rule for smaller screen */
+    padding-left: 10vw;
+    
+    color: #005680;
+}
+
+#works-header {
+    width: inherit;
+    height: 30vh;
+
+    padding-left: 10vw;
+}
+
+#works-content {
+    width: inherit;
+    height: 70vh;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    font-size: 0;
+}
+
+.works-category {
+    width: 33.33%;
+    height: inherit;
+    background-size: cover;
+    display: inline-block;
+}
+
+#works-category-1 {
+    background-image: url(../images/works/P3-work-residencial-off.jpg)  ;
+    background-repeat: no-repeat;
+}
+
+#works-category-2 {
+    background-image: url(../images/works/P3-work-commercial-off.jpg);
+    background-repeat: no-repeat; 
+}
+
+#works-category-3 {
+    background-image: url(../images/works/P3-work-retail-off.jpg);
+    background-repeat: no-repeat; 
+}
+
+#works-img {
+    position: relative;
+    top: 20vh; /* set rule for smaller screen */
+}
