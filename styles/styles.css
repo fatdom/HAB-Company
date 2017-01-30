@@ -251,6 +251,7 @@ textarea {
     width: 33.33%;
     height: inherit;
     background-size: cover;
+    background-position: center;
     display: inline-block;
 }
 
