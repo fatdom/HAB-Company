@@ -15,7 +15,6 @@ $(document).ready(function() {
     });
     
 
-
     $('.menu-main-1').hover(
         function(){
             $(this).attr('src', 'images/main/P1-cover-button-about-on.png');
@@ -51,6 +50,33 @@ $(document).ready(function() {
             $(this).attr('src', 'images/main/P1-cover-button-contact-off.png');
         }
     );
+    
+    $('#works-category-1').hover(
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-residencial-on.jpg)');
+        },
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-residencial-off.jpg)');
+        }
+    );
+    
+    $('#works-category-2').hover(
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-commercial-on.jpg)');
+        },
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-commercial-off.jpg)');
+        }
+    );
+    
+    $('#works-category-3').hover(
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-retail-on.jpg)');
+        },
+        function(){
+            $(this).css('background-image', 'url(../images/works/P3-work-retail-off.jpg)');
+        }
+    );  
     
     startSlideShowTransition();
 });
