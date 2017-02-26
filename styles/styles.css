@@ -238,7 +238,7 @@ textarea {
 }
 
 #works-content {
-    width: inherit;
+    width: 100%;
     height: 70vh;
     
     margin: 0px;
@@ -248,11 +248,12 @@ textarea {
 }
 
 .works-category {
-    width: 33.33%;
+    width: 33.3%;
     height: inherit;
     background-size: cover;
     background-position: center;
     display: inline-block;
+    cursor: pointer;
 }
 
 #works-category-1 {
@@ -270,7 +271,30 @@ textarea {
     background-repeat: no-repeat; 
 }
 
-#works-img {
+
+
+.works-header {
+    width: 90vw;
+    height: 30vh;
+
+    padding-left: 10vw;
+}
+
+.works-content {
+    width: 100%;
+    height: 70vh;
+    
+    margin: 0px;
+    padding: 0px;  
+}
+
+.works-head-img {
     position: relative;
     top: 20vh; /* set rule for smaller screen */
+}
+
+.works-all-img {
+    position: relative;
+    top: 20vh;
+    left: 15vw;
 }

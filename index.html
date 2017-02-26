@@ -69,17 +69,60 @@
             </div>
         </div>
         <div id="section-works" class="section">
-            <div id="works-header">
-                <img id="works-img" src="images/works/P3-work.png" />
+            <div class="slide" id="slide-retail" data-anchor="works-retail">
+                <div id="works-retail-header" class="works-header">
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                        <img class="works-head-img" src="images/works/P3-work-retail.png" />
+                    </div>
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                        <a href="/index.html#works/works-main"><img class="works-all-img" src="images/works/P3-work-all-work-off.png" />
+                        </a>
+                    </div>
+                </div>
+                <div id="works-retail-content" class="works-content">
+                   WORKS-RETAIL-CONTENT
+                </div>
             </div>
-            <div id="works-content">
-                <div id="works-category-1" class="works-category">
+            <div class="slide" id="slide-commercial" data-anchor="works-commercial">
+                <div id="works-commercial-header" class="works-header">
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                    <img class="works-head-img" src="images/works/P3-work-commercial.png" />
+                    </div>
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                        <a href="/index.html#works/works-main"><img class="works-all-img" src="images/works/P3-work-all-work-off.png" />
+                        </a>
+                    </div>
                 </div>
-                <div id="works-category-2" class="works-category">
-                </div>
-                <div id="works-category-3" class="works-category">
+                <div id="works-commercial-content" class="works-content">
+                   WORKS-COMMERCIAL-CONTENT
                 </div>
             </div>
+            <div class="slide" id="slide-residencial" data-anchor="works-residencial">
+                <div id="works-residencial-header" class="works-header">
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                        <img class="works-head-img" src="images/works/P3-work-residencial.png" />
+                    </div>
+                    <div style="width: 40vw; height: 30vh; display:inline-block;">
+                        <a href="/index.html#works/works-main"><img class="works-all-img" src="images/works/P3-work-all-work-off.png" />
+                        </a>
+                    </div>
+                    
+                </div>
+                <div id="works-residencial-content" class="works-content">
+                   WORKS-RESIDENCIAL-CONTENT
+                </div>
+            </div>	
+            <div class="slide active" id="slide-works-main" data-anchor="works-main">
+                <div id="works-header">
+                    <img class="works-head-img" src="images/works/P3-work.png" />
+                </div>
+                <div id="works-content">
+                    <div id="works-category-1" class="works-category" onclick="location.href='/index.html#works/works-residencial'"></div>
+                    <div id="works-category-2" class="works-category" onclick="location.href='/index.html#works/works-commercial'"></div>
+                    <div id="works-category-3" class="works-category" onclick="location.href='/index.html#works/works-retail'"></div>
+                </div>
+            </div>
+
         </div>
         <div id="section-service" class="section">
             <div id="content-service">
