@@ -252,23 +252,21 @@ textarea {
     height: inherit;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
     cursor: pointer;
 }
 
 #works-category-1 {
     background-image: url(../images/works/P3-work-residencial-off.jpg)  ;
-    background-repeat: no-repeat;
 }
 
 #works-category-2 {
-    background-image: url(../images/works/P3-work-commercial-off.jpg);
-    background-repeat: no-repeat; 
+    background-image: url(../images/works/P3-work-commercial-off.jpg); 
 }
 
 #works-category-3 {
     background-image: url(../images/works/P3-work-retail-off.jpg);
-    background-repeat: no-repeat; 
 }
 
 
@@ -282,10 +280,13 @@ textarea {
 
 .works-content {
     width: 100%;
-    height: 70vh;
-    
+    height: 100%;
+    overflow: hidden;
     margin: 0px;
-    padding: 0px;  
+    margin-bottom: 5vh;
+    padding: 0px;
+    font-size: 1;
+    
 }
 
 .works-head-img {
@@ -296,5 +297,59 @@ textarea {
 .works-all-img {
     position: relative;
     top: 20vh;
-    left: 15vw;
+    left: 25vw;
+}
+
+.works-residencial {
+    width: 32.5%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    
+    background-image:  url(../images/works/P3-work-residencial-off.jpg);
+}
+
+#works-residencial-1 {
+
+}
+
+#works-residencial-2 {
+
+}
+
+#works-residencial-3 {
+
+}
+
+.works-commercial {
+    width: 32.5%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    
+    background-image:  url(../images/works/P3-work-commercial-off.jpg);
+}
+
+.works-retail {
+    width: 32.5%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 0.5%;
+    margin-bottom: 1%;
+    
+    background-image:  url(../images/works/P3-work-retail-off.jpg);
 }

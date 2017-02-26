@@ -8,6 +8,8 @@ $(document).ready(function() {
         slidesNavigation: false,
         controlArrows: false,
         verticalCentered: false,
+        scrollOverflow: true,
+        scrollBar: false,
         afterLoad: function(){
             $("#nav-bottom .nav-img").attr('src','images/point-off.png');
             $("#nav-bottom .active").attr('src','images/point-on.png');
