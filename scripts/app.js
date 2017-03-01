@@ -55,28 +55,28 @@ $(document).ready(function() {
     
     $('#works-category-1').hover(
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-residencial-on.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-residencial-on.jpg)');
         },
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-residencial-off.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-residencial-off.jpg)');
         }
     );
     
     $('#works-category-2').hover(
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-commercial-on.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-commercial-on.jpg)');
         },
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-commercial-off.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-commercial-off.jpg)');
         }
     );
     
     $('#works-category-3').hover(
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-retail-on.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-retail-on.jpg)');
         },
         function(){
-            $(this).css('background-image', 'url(../images/works/P3-work-retail-off.jpg)');
+            $(this).css('background-image', 'url(images/works/P3-work-retail-off.jpg)');
         }
     );  
     
