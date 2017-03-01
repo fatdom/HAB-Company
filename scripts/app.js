@@ -82,7 +82,7 @@ $(document).ready(function() {
     
     $('.works-all-img').hover(
         function(){
-            $(this).attr('src', '/images/works/P3-work-all-work-on.png');
+            $(this).attr('src', 'images/works/P3-work-all-work-on.png');
         },
         function(){
             $(this).attr('src', 'images/works/P3-work-all-work-off.png');
